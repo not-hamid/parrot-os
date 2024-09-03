@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    color: white;
+} 
+.bgm1{
+    height: 184vh;
+    width: 100%;
+    background-image: url(../media/bg1.jpg);
+}
+.opacity{
+    height: 184vh;
+    width: 100%;
+    background-color: rgba(35, 35, 35, 0.938)
+}
+nav{
+    height: 11vh;
+    width: 100%;
+    background-color: rgba(73, 73, 73, 0.742);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ul li{
+    display: inline;
+    padding:  1rem;
+    box-sizing: border-box;
+}
+ul li a{
+    text-decoration: none;
+    font-family: none;
+    color: rgba(255, 255, 255, 0.751);
+    font-size: 1rem;
+    transition: all 0.1s ease-in-out 0s;
+}
+ul li a:hover{
+    color: rgb(255, 255, 255);
+    transition: all 0.1s ease-in-out 0s;
+}
+.parrot1{
+    height: 15vh;
+    width: 5%;
+    background-image: url(../media/parrot1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 5rem;
+}
+.div1{
+    height: 26vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+span{
+    color: aqua;
+}
+.div1p{
+    font-weight: 700;
+    font-size: 2.3rem;
+}
+.hrone{
+    height: 2vh;
+    
+}
+.ran{
+    height: 75%;
+    width: 23%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.hr{
+    flex-basis: 100%;
+    height: 0.5vh;
+    background-color: rgba(62, 97, 97, 0.744);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subhr{
+    width: 17%;
+    height: 1.1vh;
+    background-color: aqua;
+}
+.bg1{
+    height: 120vh;
+    width: 100%;
+    padding-top: 4rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+}
+.laptop{
+    height: 52vh;
+    width: 43.5%;
+    background-image: url(../media/laptop.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.right{
+    width: 45%;
+    height: 120vh;
+}
+.right1{
+    height: 40vh;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.858);
+}
+.right .p1{
+    font-size: 1.83rem;
+    font-weight: 500;
+}
+.right1 .p2{
+    font-size: 0.83rem;
+    word-spacing: 7px;
+    margin-top: 0.8rem;
+}
+.right1 .p3{
+    font-size: 0.83rem;
+    word-spacing: 7px;
+    margin-top: 1.2rem;
+}
+.right2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.8rem;
+}
+.right2kid:nth-child(1){
+    height: 35vh;
+    padding: 9px 0 0 9px;
+}
+.right2kid:nth-child(2){
+    height: 35vh;
+    padding: 9px 0 0 9px;
+}
+.right2kid:nth-child(3){
+    height: 35vh;
+    padding: 9px 0 0 9px;
+    margin-top: 20px;
+}
+.right2kid:nth-child(4){
+    height: 45vh;
+    padding: 9px 0 0 9px;
+    margin-top: 20px;
+
+}
+.rp1{
+    font-size: 1.2rem;
+}
+.rp2{
+    font-size: 0.78rem;
+    word-spacing: 7px;
+    margin-top: 0.9rem;
+    color: rgba(255, 255, 255, 0.858);
+}
+.rhr1{
+    height: 3px;
+    width: 81%;
+    background-color: aqua;
+    border: none;
+    margin-top: 0.5rem;
+}
+.bg2{
+    height: 200vh;
+    width: 100%;
+    background-image: url(../media/bg1.jpg);
+}
+.opacity2{
+    height: 200vh;
+    width: 100%;
+    background-color: rgba(58, 58, 58, 0.886);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid2{
+    height: 150vh;
+    width: 89%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 2.6rem;
+    column-gap: 1.9rem;
+}
+.grid2kid1{
+    height: 70vh;
+    background-color: rgb(23, 22, 22);
+    text-align: center;
+    transition: all 0.1s ease-in-out;
+}
+.grid2kid1:hover{
+    border-bottom: 0.2rem solid aqua;
+    transition: all 0.1s ease-in-out;
+}
+.logo1{
+    height: 20vh;
+    width: 32%;
+    background-image: url(../media/security.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: 3rem;
+    left: 7rem;
+}
+.grid2kid2{
+    height: 70vh;
+    background-color: rgb(23, 22, 22);
+    text-align: center;
+    transition: all 0.1s ease-in-out;
+}
+.grid2kid2:hover{
+    border-bottom: 0.2rem solid aqua;
+    transition: all 0.1s ease-in-out;
+}
+.logo2{
+    height: 28vh;
+    width: 38%;
+    background-image: url(../media/privacy.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: 2.4rem;
+    left: 7rem;
+}
+.grid2kid:nth-child(2) .grid2p{
+    margin-top: 2.5rem;
+}
+.grid2kid3{
+    height: 70vh;
+    background-color: rgb(23, 22, 22);
+    text-align: center;
+}
+.grid2kid3:hover{
+    border-bottom: 0.2rem solid aqua;
+    transition: all 0.1s ease-in-out;
+}
+.logo3{
+    height: 22vh;
+    width: 35%;
+    background-image: url(../media/software.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: 3rem;
+    left: 7rem;
+}
+.grid2kid4{
+    height: 70vh;
+    background-color: rgb(23, 22, 22);
+    text-align: center;
+    transition: all 0.1s ease-in-out;
+}
+.grid2kid4:hover{
+    border-bottom: 0.2rem solid aqua;
+    transition: all 0.1s ease-in-out;
+}
+.logo4{
+    height: 20vh;
+    width: 32%;
+    background-image: url(../media/books.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: 3rem;
+    left: 7rem;
+}
+.grid2kid5{
+    height: 70vh;
+    background-color: rgb(23, 22, 22);
+    text-align: center;
+    transition: all 0.1s ease-in-out;
+}
+.grid2kid5:hover{
+    border-bottom: 0.2rem solid aqua;
+    transition: all 0.1s ease-in-out;
+}
+.logo5{
+    height: 21vh;
+    width: 35%;
+    background-image: url(../media/message.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: 3rem;
+    left: 7rem;
+}
+.grid2kid6{
+    height: 70vh;
+    background-color: rgb(23, 22, 22);
+    text-align: center;
+    transition: all 0.1s ease-in-out;
+}
+.grid2kid6:hover{
+    border-bottom: 0.2rem solid aqua;
+    transition: all 0.1s ease-in-out;
+}
+.logo6{
+    height: 20vh;
+    width: 32%;
+    background-image: url(../media/three\ light.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: 3rem;
+    left: 7rem;
+}
+.grid2p{
+    font-size: 1.9rem;
+    margin-top: 4.5rem;
+}
+.grid2p2{
+    font-size: 0.9rem;
+    font-family: none;
+    width: 90%;
+    padding: 1rem 0 0 2.3rem;
+    box-sizing: border-box;
+}
+
+
+@media only screen and (min-width: 768px) {
+    /* Tablet Styles */
+    .div1p {
+        font-size: 3rem;
+    }
+
+    .grid2p {
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    /* Mobile Styles */
+    .parrot1 {
+        margin-left: 2rem;
+    }
+
+    .div1p {
+        font-size: 2rem;
+    }
+
+    .grid2p {
+        font-size: 1.5rem;
+    }
+
+    .laptop, .right {
+        width: 90%;
+    }
+}
